@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Splash Screen styles */
+#splash-screen {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#splash-screen img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#splash-screen h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Home Page styles */
+#home-page {
+    display: block;
+}
+
+#home-page, #content {
+    width: 100%;
+}
+
+header {
+    background-color: #00a3ba; /* Change the background color to #00a3ba */
+    color: #fff; /* Change the text color to white */
+    padding: 20px;
+    text-align: center;
+    height: auto; /* Auto height */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Set z-index to make sure it appears above other elements */
+}
+
+/* Style content section */
+#content {
+    padding: 0 20px 20px 20px; /* Adjust padding for other sides if needed */
+    margin-top: 60px; /* Add margin to compensate for the fixed header */
+}
+
+/* About Section styles */
+#about {
+    margin-bottom: 20px;
+}
+
+/* Upcoming Events styles */
+#events {
+    margin-bottom: 20px;
+}
+
+#events ul {
+    list-style: none;
+    padding: 0;
+}
+
+#events li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section styles */
+#contact {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+	position:fixed;
+	width: 100%;
+	bottom:0;
+	font-size: 0.8em;
+    text-align: center;
+    background-color: #00a3ba;
+    color: #fff;
+}
+button {
+	font-size: 1.0em;
+    text-align: center;
+    padding: 10px;
+   background-color: #2b303a;
+    color: #fff;
+	border-radius: 50px;
+}
+
+
+.footer-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 1.0em;
+    }
+
+    #splash-screen h3,
+    #content {
+        font-size: .9em;
+    }
+
+  
+}
